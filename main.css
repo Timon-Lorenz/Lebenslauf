@@ -1,0 +1,188 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Raleway;
+    font-size: 18px;
+    background-color: rgb(245, 245, 245);
+    box-sizing: border-box;
+}
+
+.rechts{
+    background-color: white;
+    box-shadow: 2px 5px 8px #b3b3b3;
+    width: 450px;
+    height: 1100px;;
+    margin-left: 14vw;
+    margin-top: 15px;
+    position: relative;
+}
+
+.rechts img{
+    width: 100%;
+    height: 300px;
+}
+
+.rechts h1{
+    font-size: 30px;
+    position: absolute;
+    top: 230px;
+    left: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.fas{
+    color: rgb(53, 172, 241);
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+.text{
+    color: grey;
+    font-family: Raleway;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+i{
+    width: 150px;
+    height: 25px;
+}
+
+.fas{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.fa-envelope{
+    margin-left: 20px;
+}
+
+.fa-home{
+    margin-left: 18.5px;
+}
+
+.fa-briefcase{
+    margin-left: 19.5px;
+    margin-top: 20px;
+}
+
+.fa-mobile{
+    margin-left: 23.5px;
+}
+
+.mobile{
+    margin-left: 23.5px;
+}
+
+.home{
+    margin-left: 18px;
+}
+
+.heading{
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-family: Raleway;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.bruch{
+    height: 1px;
+    width: 90%;
+    margin: 20px auto;
+    background-color: lightgrey;
+}
+
+.skilltext{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.sprachentext{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.bar{
+    width: 95%;
+    height: 18px;
+    background-color: lightgrey;
+    border-radius: 18px;
+}
+
+.prozentms{
+    width: 70%;
+    height: 18px;
+    background-color: rgb(53, 172, 241);
+    border-radius: 18px;
+}
+
+.prozentms > p{
+    font-size: 16px;
+    margin-left: 150px;
+}
+
+.prozenthtml{
+    width: 90%;
+    height: 18px;
+    background-color: rgb(53, 172, 241);
+    border-radius: 18px;
+}
+
+.prozenthtml > p{
+    font-size: 16px;
+    margin-left: 190px;
+}
+
+.prozentcss{
+    width: 85%;
+    height: 18px;
+    background-color: rgb(53, 172, 241);
+    border-radius: 18px;
+}
+
+.prozentcss > p{
+    font-size: 16px;
+    margin-left: 180px;
+}
+
+.prozentjs{
+    width: 20%;
+    height: 18px;
+    background-color: rgb(53, 172, 241);
+    border-radius: 18px;
+}
+
+.prozentjs > p{
+    font-size: 16px;
+    margin-left: 25px;
+}
+
+.sprachen{
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-family: Raleway;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.deutsch{
+    width: 100%;
+    height: 18px;
+    background-color: rgb(53, 172, 241);
+    border-radius: 18px;
+}
+
+.english{
+    width: 90%;
+    height: 18px;
+    background-color: rgb(53, 172, 241);
+    border-radius: 18px;
+}
