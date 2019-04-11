@@ -5,6 +5,7 @@ html, body{
     font-size: 18px;
     background-color: rgb(245, 245, 245);
     box-sizing: border-box;
+    color: grey;
 }
 
 .rechts{
@@ -47,6 +48,10 @@ a{
     margin: 20px;
     font-size: 18px;
     font-weight: 400;
+}
+
+a:hover{
+    color: rgb(100, 100, 100);
 }
 
 i{
@@ -185,4 +190,119 @@ i{
     height: 18px;
     background-color: rgb(53, 172, 241);
     border-radius: 18px;
+}
+
+.arbeit{
+    background-color: white;
+    box-shadow: 2px 5px 8px #b3b3b3;
+    width: 860px;
+    height: 565px;;
+    margin-top: 15px;
+    margin-right: 14vw;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px 20px;
+}
+
+.bildung{
+    background-color: white;
+    box-shadow: 2px 5px 8px #b3b3b3;
+    width: 860px;
+    height: 470px;
+    margin-top: 35px;
+    margin-right: 14vw;
+    position: absolute;
+    right: 0;
+    top: 595px;
+    padding: 20px 20px;
+}
+
+.uberschrift
+{
+    font-family: Raleway;
+    color: rgb(95, 95, 95);
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.fa-suitcase, .fa-certificate{
+    font-size: 35px;
+}
+
+.arbeit2, .bildung2{
+    padding-left: 13px;
+    padding-top: 30px;
+}
+
+.job{
+    font-size: 18px;
+    color: rgb(100, 100, 100);
+}
+
+.para{
+    padding-bottom: 30px;
+}
+
+.datum{
+    color: rgb(53, 172, 241);
+    font-family: Raleway;
+    font-size: 18px;
+}
+
+.fa-calendar-alt {
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+}
+
+.arbeit2 > p, .bildung > p{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+.current{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(53, 172, 241);
+    color: white;
+    border-radius: 5px;
+    padding: 2px 7px;
+}
+
+footer{
+    width: 100%;
+    height: 120px;
+    margin-top: 35px; 
+    background-color: rgb(53, 172, 241);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 22px;
+}
+
+footer > p{
+    margin-top: 5px;
+}
+
+.fab{
+    width: 25px;
+    height: 25px;
+    color: white;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.fa-github:hover{
+    color: #333;
+}
+
+.fa-twitter:hover{
+    color: #38A1F3;
+}
+
+.fa-instagram:hover{
+    color: #231F20;
 }
